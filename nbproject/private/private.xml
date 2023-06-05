@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/Test.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/FXMLSignUp.fxml</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/controller/FXMLClientController.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/controller/FXMLFactureController.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/classes/Users.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/controller/SignUpController.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/classes/Client.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/Style.css</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/Dao/DaoSignUp.java</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/FXMLClient.fxml</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/tv.css</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/FXMLLogin.fxml</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/view/FXMLFacture.fxml</file>
+            <file>file:/C:/Users/sahba/OneDrive/Documents/NetBeansProjects/tp6bd/src/controller/LoginController.java</file>
+        </group>
+    </open-files>
+</project-private>
