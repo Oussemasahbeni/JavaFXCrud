@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+
+<AnchorPane fx:id="s" maxHeight="-Infinity" stylesheets="/view/tv.css" maxWidth="700.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLClientController">
+   <children>
+       <HBox layoutX="14.0" layoutY="14.0" spacing="10.0">
+         <Button fx:id="btnA" styleClass="action-button" mnemonicParsing="false" text="ajouter" onAction="#ajouter">
+            <graphic>
+               <ImageView fitHeight="16.0" fitWidth="16.0">
+                  <image>
+                     <Image url="images/add-user.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="btnM" styleClass="action-Modifier" mnemonicParsing="false" text="Modifier" onAction="#modifier">
+         <graphic>
+               <ImageView fitHeight="16.0" fitWidth="16.0">
+                  <image>
+                     <Image url="images/edit.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+        </Button>
+         <Button fx:id="btnAr" styleClass="action-Supprimer" mnemonicParsing="false" text="Supprimer" onAction="#supprimer" >
+           <graphic>
+             <ImageView fitHeight="16.0" fitWidth="16.0">
+                  <image>
+                     <Image url="images/delete.png" />
+                  </image>
+               </ImageView>
+            </graphic> 
+            </Button>
+         <Button fx:id="btnG" styleClass="action-gest" mnemonicParsing="false" text="Gestion Facture"  onAction="#onGestionFactureClicked" >
+         <graphic>
+             <ImageView fitHeight="16.0" fitWidth="16.0">
+                  <image>
+                     <Image url="images/management.png" />
+                  </image>
+               </ImageView>
+            </graphic> 
+            </Button>
+         <Button fx:id="btnL" styleClass="action-logout" mnemonicParsing="false" text="Logout"  onAction="#Logout" >
+             <graphic>
+             <ImageView fitHeight="16.0" fitWidth="16.0">
+                  <image>
+                     <Image url="images/logout.png" />
+                  </image>
+               </ImageView>
+            </graphic> 
+            </Button>
+      </HBox>
+      <TextField fx:id="codeCli" styleClass="text-field" layoutX="39.0" layoutY="73.0" prefHeight="25.0" prefWidth="61.0" promptText="code" />
+      <TextField fx:id="nomCli" styleClass="text-field" layoutX="128.0" layoutY="73.0" prefHeight="25.0" prefWidth="99.0" promptText="Nom" />
+      <TextField fx:id="adrCli" styleClass="text-field" layoutX="262.0" layoutY="73.0" prefHeight="25.0" prefWidth="132.0" promptText="Adresse" />
+      <TextField fx:id="emailCli" styleClass="text-field" layoutX="420.0" layoutY="73.0" promptText="Email" />
+      <TableView fx:id="tv" onMouseClicked="#FillForm"  layoutX="146.0" layoutY="142.0" prefHeight="200.0" prefWidth="369.0">
+        <columns>
+          <TableColumn fx:id="colCode" prefWidth="75.0" text="Code" />
+          <TableColumn fx:id="colNom" prefWidth="91.0" text="Nom" />
+            <TableColumn fx:id="colAdresse" prefWidth="98.0" text="Adresse" />
+            <TableColumn fx:id="colEmail" prefWidth="104.0" text="Email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

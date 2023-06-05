@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Action buttons */
+.action-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 20px ;
+     -fx-margin: 8px 20px;
+    -fx-border-radius: 5px;
+}
+.action-Supprimer {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+.action-Modifier {
+    -fx-background-color: #00D0FF;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px 8px 20px;
+    -fx-border-radius: 5px;
+}
+.action-logout {
+    -fx-background-color: #ff002f;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px 8px 20px;
+    -fx-border-radius: 5px;
+}
+.action-gest {
+    -fx-background-color: #F07B7B;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px 8px 8px;
+    -fx-border-radius: 5px;
+}
+
+.action-button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Text fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 4px;
+    -fx-border-radius: 5px;
+}
+
+/* Table view */
+.table-view {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f2f2f2;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #78B7BD;
+}
